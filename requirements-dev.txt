@@ -1,0 +1,26 @@
+# 本番環境の依存関係を含む
+-r requirements.txt
+
+# テストフレームワーク
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+pytest-timeout>=2.2.0
+
+# コード品質
+black>=23.12.0
+flake8>=6.1.0
+pyright>=1.1.0
+isort>=5.13.0
+
+# 型スタブ
+types-requests>=2.31.0
+
+# テストユーティリティ
+faker>=20.1.0
+responses>=0.24.0
+
+# 開発ツール
+ipython>=8.18.0
+ipdb>=0.13.13
