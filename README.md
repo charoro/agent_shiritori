@@ -20,7 +20,8 @@ Google Agent Development Kit (ADK)を使用したPythonベースのAIエージ�
 ### 1. リポジトリのクローン
 
 ```bash
-cd /home/charoro/git/agent_shiritori
+git clone https://github.com/charoro/agent_shiritori.git
+cd agent_shiritori
 ```
 
 ### 2. 仮想環境のセットアップ
